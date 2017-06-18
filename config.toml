@@ -1,0 +1,89 @@
+baseurl = "https://uts-c3.github.io/"  # End your URL with a `/` trailing slash.
+title = "UTS-C3 Software"
+copyright = "&copy; 2017 Leo Hardtke"
+theme = "academic"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[params]
+  name = "Climate Change Cluster"
+  organization = "University Of technology Sydney"
+  organization_url = "http://www.uts.edu.au/research-and-teaching/our-research/"
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "c3_logo_color.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "c3admin@uts.edu.au"
+  address = "Building 4 Room CB04.06.337, University of technology Sydney, Sydney NSW, 2007, Australia"
+  phone = "+61 2 9514 4203"
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  highlight = true
+  highlight_languages = ["python","bash"]
+  highlight_style = "github"
+  highlight_version = "9.9.0"
+
+  sharing = true
+
+  custom_css = ['green.css']
+  custom_js  = []
+
+  # Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  publication_types = [
+    'Uncategorized',  # 0
+    'Conference proceedings',  # 1
+    'Journal',  # 2
+    'Work in progress',  # 3
+    'Technical report',  # 4
+    'Book',  # 5
+    'Book chapter'  # 6
+  ]
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:c3admin@uts.edu.au"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/uts_c3"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/uts-c3/"
+
+
+[[menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[menu.main]]
+  name = "Software"
+  url = "#projects"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
+
+# Configure the English version of the website.
+[languages.en]
+  languageCode = "en-us"
