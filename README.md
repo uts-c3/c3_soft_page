@@ -1,6 +1,6 @@
 # How to collaborate.
 
-- Clone the repo (`git clone https://github.com/uts-c3/c3apps-hugo`)
+- Clone the repo (`git clone https://github.com/uts-c3/c3_soft_page`)
 - Make the changes you want (Usually create a new md file in the portfolio folder)
 - Make a pull reques.
 
@@ -12,8 +12,7 @@ Some usefull links:
 
 # How to update the site:
 
-- Merge the request
-- Pull the changes
+
 - Use hugo to generate the new `Public` folder (`hugo -t academic`)
 
 and then:
