@@ -14,7 +14,7 @@ weight = 1
 To deliver meaningful, impactful research to inform solutions to mitigate climate change impacts on our plant-microbe ecosystems, which are critical for the well-being of the animals, plants and our communities that rely on them.
 
 ### Approach
-To provide integrated and collaborative scientific research, together with dynamic interactions with industry and world-class technology, to deliver innovative solutions to progress Australia’s bioeconomy.
+We provide integrated and collaborative scientific research, together with dynamic interactions with industry and world-class technology, to deliver innovative solutions to progress Australia’s bioeconomy.
 
 ### Research programs
 - Algal Biosystems and Biotechnology: Prof. Peter Ralph
