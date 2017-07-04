@@ -11,12 +11,12 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Climate Change Cluster"
-  organization = "University Of technology Sydney"
-  organization_url = "http://www.uts.edu.au/research-and-teaching/our-research/"
+  organization = "University Of Technology Sydney"
+  organization_url = "www.c3.uts.edu.au"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "c3_logo_color.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "c3admin@uts.edu.au"
-  address = "Building 4 Room CB04.06.337, University of technology Sydney, Sydney NSW, 2007, Australia"
+  address = "Building 4 Room CB04.06.337, University of Technology Sydney, Sydney NSW, 2007, Australia"
   phone = "+61 2 9514 4203"
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
